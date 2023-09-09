@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "OctopusLinkOpener",
+    "version": "1.0",
+    "description": "Opens octopus links in incognito tab.",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "windows",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
